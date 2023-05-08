@@ -19,7 +19,7 @@ namespace Zadanie1
             Console.WriteLine($"{DateTime.Now} Print: {document.GetFileName()}");
         }
 
-        public void Scan(out IDocument document, IDocument.FormatType formatType)
+        public void Scan(out IDocument document, IDocument.FormatType formatType = IDocument.FormatType.JPG)
         {
             if (GetState() == IDevice.State.off)
             {

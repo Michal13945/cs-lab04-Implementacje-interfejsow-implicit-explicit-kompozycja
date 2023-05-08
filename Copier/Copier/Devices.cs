@@ -21,12 +21,14 @@ namespace ver1
 
         public void PowerOff()
         {
+            if (GetState() == IDevice.State.off) return;
             state = IDevice.State.off;
             Console.WriteLine("... Device is off !");
         }
 
         public void PowerOn()
         {
+            if (GetState() == IDevice.State.on) return;
             state = IDevice.State.on;
             Console.WriteLine("Device is on ...");  
         }

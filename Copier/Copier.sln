@@ -10,8 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\ClassDiagram-ver1.png = ..\ClassDiagram-ver1.png
 		..\ClassDiagram-ver2.png = ..\ClassDiagram-ver2.png
 		..\README.md = ..\README.md
-		..\UnitTestCopier.cs = ..\UnitTestCopier.cs
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadanie1Tests", "Zadanie1Tests\Zadanie1Tests.csproj", "{75AA241A-3846-4074-9930-70550E44A449}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +24,10 @@ Global
 		{C56E93E0-858D-4B05-935A-493B07535E48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56E93E0-858D-4B05-935A-493B07535E48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56E93E0-858D-4B05-935A-493B07535E48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75AA241A-3846-4074-9930-70550E44A449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75AA241A-3846-4074-9930-70550E44A449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75AA241A-3846-4074-9930-70550E44A449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75AA241A-3846-4074-9930-70550E44A449}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
